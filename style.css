@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+  background: #fff0f5;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(pink, purple);
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.photo {
+  width: 200px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+}
